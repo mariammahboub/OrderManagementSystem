@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stripe.net" Version="45.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderManagement.Core\OrderManagement.Core.csproj" />
+    <ProjectReference Include="..\OrderManagement.Repository\OrderManagement.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
